@@ -12,20 +12,21 @@
    
 </head>
 <body>
-<header class="mui-bar mui-bar-nav" style="background: ;">
+<header class="mui-bar mui-bar-nav" style="background: #4CD964;">
   <!--<a class="mui-btn mui-pull-left mui-btn-negative"  onclick="delall()">
     清空
   </a>
   <a class="mui-btn mui-pull-right" onclick="reset0()">
     重来
   </a>-->
-  <h1 class="mui-title" style="">易伙加粉工具</h1>
+  <h1 class="mui-title" style="color:#fff">易伙加粉工具 Pro</h1>
 </header>
 <br /><br /><br />
 
-<!--<center>平台活跃粉丝<span id="total"></span>个
-	<h5> 当前类型<span id="find"></span>个/您已加粉丝<span id="adds">0</span>个</h5>
-	</center>-->
+<center>总粉丝量<span id="">25,012,565</span>个
+	<h5> 易伙三商出品</h5>
+	<!--<h5> 当前类型<span id="find"></span>个/您已加粉丝<span id="adds">0</span>个</h5>-->
+	</center>
 		<input type="hidden" value="" id="type" /> <!--用来传条件-->
 <div class="mui-card">	
 	<ul class="mui-table-view">
@@ -41,9 +42,10 @@
 			<label>选择类型</label>
 			<select name="" onchange="change(this)">
 				<option value="9" selected  id="type9"> 所有粉丝</option>
-				<option value="0"   id="type0">仅微商</option>
-				<option value="1"   id="type1">仅老板 </option>
+				<option value="0"   id="type0">仅微商大咖</option>
+				<option value="1"   id="type1">仅企业老板 </option>
 				<option value="2"   id="type1">仅购物狂 </option>
+				<!--<option value="2"   id="type1">仅学生党 </option>-->
 			</select>
 		</div>
 		
@@ -51,9 +53,9 @@
 		  <li class="mui-table-view-divider">辅助功能</li>
 		  	<li class="mui-table-view-cell">
 		重新添加粉丝
-	  <a class="mui-btn  mui-btn-primary" onclick="reset0()"> 重来 </a>
+	  <a class="mui-btn  mui-btn-primary" onclick="reset0()"> 重置 </a>
 	</li>
-		<li class="mui-table-view-cell">
+	<li class="mui-table-view-cell">
 		清空通迅录粉丝
 		  <a class="mui-btn mui-btn-negative"  onclick="delall()"> 清空 </a>
 	</li>
@@ -225,7 +227,8 @@ function delall(){
 	            console.log('删除失败');
 	       }) 
 		}
-		mui.toast("删除原有粉丝成功！");
+//		mui.toast("删除原有粉丝成功！");
+   mui.toast( "正在导入粉丝，请稍等！");
 		
 		}, function () {
 			alert("error");

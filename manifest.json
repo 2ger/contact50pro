@@ -1,7 +1,7 @@
 {
 	"@platforms": ["android", "iPhone", "iPad"],
 	"id": "H54312643",/*应用的标识，创建应用时自动生成，勿手动修改*/
-	"name": "易伙加粉工具",/*应用名称，程序桌面图标名称*/
+	"name": "易伙加粉工具pro",/*应用名称，程序桌面图标名称*/
 	"version": {
 		"name": "2.1.0",/*应用版本名称*/
 		"code": "83"
@@ -17,18 +17,14 @@
 		"url": "http://www.dcloud.io"
 	},
 	"permissions": {
-		"Accelerometer": {
-            "description": "访问加速度感应器"
-        },
+		
         "Audio": {
             "description": "访问麦克风"
         },
         "Cache": {
             "description": "管理应用缓存"
         },
-        "Camera": {
-            "description": "访问摄像头"
-        },
+        
         "Console": {
             "description": "跟踪调试输出日志"
         },
@@ -56,15 +52,9 @@
          "Invocation": {
             "description": "使用Native.js能力"
         },
-        "Messaging": {
-            "description": "访问通讯能力"
-        },
-        "Orientation": {
-            "description": "访问方向感应器"
-        },
-        "Proximity": {
-            "description": "访问距离感应器"
-        },
+        
+        
+        
         "Storage": {
             "description": "管理应用本地数据"
         },
@@ -165,27 +155,27 @@
 			"splashscreen": {
 				"ios": {
 					"iphone": {
-						"default": "", /*iPhone3启动图片选，分辨率：320x480*/
-						"retina35": "",/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
-						"retina40": ""
+						"default": "img/splash.png", /*iPhone3启动图片选，分辨率：320x480*/
+						"retina35": "img/splash.png",/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
+						"retina40": "img/splash.png"
 					},
 					"ipad": {
-						"portrait": "", /*iPad竖屏启动图片，分辨率：768x1004*/
-						"portrait-retina": "",/*iPad高分屏竖屏图片，分辨率：1536x2008*/
-						"landscape": "", /*iPad横屏启动图片，分辨率：1024x748*/
-						"landscape-retina": "", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
-						"portrait7": "", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
-						"portrait-retina7": "",/*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
-						"landscape7": "", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
-						"landscape-retina7": ""
+						"portrait": "img/splash.png", /*iPad竖屏启动图片，分辨率：768x1004*/
+						"portrait-retina": "img/splash.png",/*iPad高分屏竖屏图片，分辨率：1536x2008*/
+						"landscape": "img/splash.png", /*iPad横屏启动图片，分辨率：1024x748*/
+						"landscape-retina": "img/splash.png", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
+						"portrait7": "img/splash.png", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
+						"portrait-retina7": "img/splash.png",/*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
+						"landscape7": "img/splash.png", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
+						"landscape-retina7": "img/splash.png"
 					}
 				},
 				"android": {
-					"mdpi": "", /*普通屏启动图片，分辨率：240x282*/
-					"ldpi": "", /*大屏启动图片，分辨率：320x442*/
-					"hdpi": "", /*高分屏启动图片，分辨率：480x762*/
-					"xhdpi": "", /*720P高分屏启动图片，分辨率：720x1242*/
-					"xxhdpi": ""
+					"mdpi": "img/splash.png", /*普通屏启动图片，分辨率：240x282*/
+					"ldpi": "img/splash.png", /*大屏启动图片，分辨率：320x442*/
+					"hdpi": "img/splash.png", /*高分屏启动图片，分辨率：480x762*/
+					"xhdpi": "img/splash.png", /*720P高分屏启动图片，分辨率：720x1242*/
+					"xxhdpi": "img/splash.png"
 				}
 			}
 		}
