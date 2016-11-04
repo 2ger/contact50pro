@@ -3,7 +3,7 @@
 	"id": "H54312643",/*应用的标识，创建应用时自动生成，勿手动修改*/
 	"name": "易伙加粉工具pro",/*应用名称，程序桌面图标名称*/
 	"version": {
-		"name": "2.1.0",/*应用版本名称*/
+		"name": "2.1.1",/*应用版本名称*/
 		"code": "83"
 	},
 	"description": "",/*应用描述信息*/
@@ -184,6 +184,23 @@
 		"pages": {
 			"index.html": {
 				"resources": [
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"fonts/mui.ttf",
+					"js/mui.picker.js",
+					"js/mui.poppicker.js",
+					"js/city.data.js",
+					"css/mui.poppicker.css",
+					"css/mui.picker.css"
+				],
+				"refer": [
+					"info.html"
+				],
+				"priority": 0
+			},
+			"info.html": {
+				"resources": [
+					"img/logo.png",
 					"js/mui.min.js",
 					"css/mui.min.css",
 					"fonts/mui.ttf"
